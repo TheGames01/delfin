@@ -1,0 +1,109 @@
+.delfin{ 
+    --delfin-barriga: skyblue;
+    --delfin-pico: ;
+    position: absolute;
+    top: 10px;
+    margin: 20px;
+    display: flex;
+    margin-top: 10%;
+    width: 700px;
+    height: 300px;
+  }
+  
+  .delfin-superior {
+   
+  top: 50%;
+  left: 10%;
+ 
+  width: 50%;
+  height: 45%;
+  
+  border-radius: 550% 80% 400% 100%;
+  }
+  
+  .delfin-inferior {
+  top: 20%;
+  left: 23.55%;
+  background: skyblue;
+  width: 53%;
+  height: 45%;
+  border: 1px dotted black;
+  border-radius: 10000% 2000% 10000% 1000%;
+  }
+  
+ { 
+  }
+  
+  .aleta-izquierda {
+  top: -1%;
+  right: 30%;
+  background: skyblue;
+  width: 30%;
+  height: 60%;
+  border-radius: 10% 100% 10% 80%;
+  transform: rotate(20deg);
+   border: 1px dotted black;
+  z-index: -1;
+  }
+  .cola{
+    top:60%;
+    left:1%;
+   background: skyblue;
+   width: 60px;
+   height: 80px;
+   transform: rotate(-140deg);
+   border-radius: 5580% 500% 50% 80%;
+  }
+
+  
+  
+  .mejilla-izquierda {
+  top: -45%;
+  left: 90%;
+  background: var(--delfin-barriga, );
+  width: 60%;
+  height: 50%;
+  transform: rotate(-5deg);
+  border-radius: 100% 555% 40% 60%;
+  }
+  
+  .barriga {
+  top: -50%;
+  left: 80%;
+  background: var(--delfin-barriga, );
+  width: 20%;
+  height: 100%;
+  transform: rotate(-25deg);
+   border: 1px dotted black;
+  border-radius: 120% 120% 190% 100%;
+  }
+  
+  
+  .ojo-izquierdo {
+  top: -60%;
+  left: 115%;
+  position: absolute;
+  background: black;
+  width: 15%;
+  height: 30%;
+  border-radius: 100%;
+  }
+  
+  .reflejo-ojos {
+  top: 30%;
+  left: 50%;
+  background: white;
+  width: 35%;
+  height: 45%;
+  border-radius: 80%;
+  }
+  
+  
+  
+ 
+  
+
+  
+  .delfin *{
+  position: absolute;
+  }
